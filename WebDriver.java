@@ -14,11 +14,11 @@ interface RemoteWebDriver extends WebDriver,TakeScreenShot{
 class ChromeDriver implements RemoteWebDriver{
     @Override
     public void open(){
-        System.out.println("ChromeDriver opens");
+        System.out.println("Chrome opens");
     }
     @Override
     public void close(){
-        System.out.println("ChromeDriver closes");
+        System.out.println("Chrome closes");
     }
     @Override
     public String getTitle(){
@@ -26,21 +26,21 @@ class ChromeDriver implements RemoteWebDriver{
     }
     @Override
     public void getScreenShot(){
-        System.out.println("ChromeDriver Screenshot");
+        System.out.println("Chrome Screenshot");
     }
     @Override
     public void navigate(){
-        System.out.println("Navigate to ChromeDriver");
+        System.out.println("Navigate to Chrome");
     }
 }
 class FireFoxDriver implements RemoteWebDriver{
     @Override
     public void open(){
-        System.out.println("FireFoxDriver opens");
+        System.out.println("FireFox opens");
     }
     @Override
     public void close(){
-        System.out.println("FireFoxDriver closes");
+        System.out.println("FireFox closes");
     }
     @Override
     public String getTitle(){
@@ -48,21 +48,21 @@ class FireFoxDriver implements RemoteWebDriver{
     }
     @Override
     public void getScreenShot(){
-        System.out.println("FireFoxDriver Screenshot");
+        System.out.println("FireFox Screenshot");
     }
     @Override
     public void navigate(){
-        System.out.println("Navigate to FireFoxDriver");
+        System.out.println("Navigate to FireFox");
     }
 }
 class SafariDriver implements RemoteWebDriver{
     @Override
     public void open(){
-        System.out.println("SafariDriver opens");
+        System.out.println("Safari opens");
     }
     @Override
     public void close(){
-        System.out.println("SafariDriver closes");
+        System.out.println("Safari closes");
     }
     @Override
     public String getTitle(){
@@ -70,11 +70,11 @@ class SafariDriver implements RemoteWebDriver{
     }
     @Override
     public void getScreenShot(){
-        System.out.println("SafariDriver Screenshot");
+        System.out.println("Safari Screenshot");
     }
     @Override
     public void navigate(){
-        System.out.println("Navigate to SafariDriver");
+        System.out.println("Navigate to Safari");
     }
 }
 class WebDriverTester{
